@@ -1,0 +1,156 @@
+.d_highlight {
+    background: white;
+    min-height: 500px;
+    width: 1400px;
+    margin-left: 40px;
+    margin-top: 70px;
+    border-radius: 200px;
+    border: 20px solid white;
+}
+
+.high_heading{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin-left: 450px;
+    width: 400px;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.img1{
+   
+    background-image: url('/highlight1.jpg');
+    height: 120px;
+    width: 240px;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 74px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: inline-block;
+    position:relative;
+}
+.img2{
+    background-image: url('/highlight2.jpg');
+    height: 120px;
+    width: 240px;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 74px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: inline-block;
+    position:relative;
+}
+.img3{
+    background-image: url('/highlight3.jpg');
+    height: 120px;
+    width: 240px;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 74px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: inline-block;
+    position:relative;
+}
+.img4{
+    background-image: url('/highlight4.jpg');
+    height: 120px;
+    width: 240px;
+    background-size: 100% 100%;
+    margin-top: 60px;
+    margin-left: 74px;
+    cursor: pointer;
+    border-radius: 20px;
+    display: inline-block;
+    position:relative;
+}
+
+.cont{
+    width: 240px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+/* .cont:hover{
+    color: red;
+    background: black;
+} */
+
+.tryxx{
+    margin-left: 300px;
+    margin-top: -375px;
+}
+
+
+.tryxx2{
+    margin-left: 620px;
+    margin-top: -380px;
+}
+.tryxx3{
+    margin-left: 960px;
+    margin-top: -430px;
+}
+
+.midcont{
+    margin-top: 20px;
+    margin-left: 80px;
+    width:300px;
+}
+
+.tryy:hover .cont{
+    color: red;
+    cursor: pointer;
+}
+
+
+.tryxx:hover .cont{
+    color: red;
+    cursor: pointer;
+    
+}
+
+.tryxx2:hover .cont{
+    color: red;
+    cursor: pointer;
+   
+    
+   
+}
+
+.tryxx3:hover .cont{
+    color: red;
+    cursor: pointer;
+    
+}
+
+
+
+
+.tryy:hover .midcont{
+    color: red;
+    cursor: pointer;
+}
+
+
+.tryxx:hover .midcont{
+    color: red;
+    cursor: pointer;
+}
+
+.tryxx2:hover .midcont{
+    color: red;
+    cursor: pointer;
+}
+
+.tryxx3:hover .midcont{
+    color: red;
+    cursor: pointer;
+}
+
+#login a{
+    color: black;
+}

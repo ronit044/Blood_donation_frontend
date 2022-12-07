@@ -1,0 +1,11 @@
+.foot{
+    background-color: rgb(60, 35, 35);
+    color: white;
+    margin-top: 70px;
+    text-align: center;
+}
+
+#f_line{
+    width: 1200px;
+    margin-left: 150px;
+}

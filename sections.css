@@ -1,0 +1,27 @@
+.why_donate{
+    background: linear-gradient(rgb(237, 122, 122),white);
+    border: 4px solid black;
+    margin-top: 80px;
+    height: 250px;
+    width: 90%;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+
+.d_head{
+    text-align: center;
+    font-size: 30px;
+    background: white;
+    width:500px;
+    border-radius: 10px;
+    margin-left: 440px;
+    margin-top: 10px;
+    border: 2px solid black; 
+}
+
+.d_content{
+    margin-top: 20px;
+    font-size: 20px;
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+}

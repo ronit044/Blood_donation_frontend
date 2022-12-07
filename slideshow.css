@@ -1,0 +1,32 @@
+.slideshow {
+    margin-top: 50px;
+    margin-left: 680px;
+    width: 800px;
+    height: 400px;
+    background-image: url('/donate_slideshow_1.png');
+    background-size: 100% 100%;
+    animation: slideshow 17s infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    box-shadow: black 200px;
+    border-radius: 20px;
+    border: 5px solid black;
+
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+}
+
+@keyframes slideshow {
+    25% {
+        background-image: url('/donate_slideshow_1.png');
+    }
+
+    50% {
+        background-image: url('/donate_slideshow_2.png');
+    }
+
+    100% {
+        background-image: url('/donate_slideshow_3.jpg');
+    }
+
+
+}

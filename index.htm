@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="/navbar.css">
+    <link rel="stylesheet" href="/slideshow.css">
+    <link rel="stylesheet" href="/find_donor.css">
+    <link rel="stylesheet" href="/sections.css">
+    <link rel="stylesheet" href="/highlight.css">
+    <link rel="stylesheet" href="/footer.css">
+    <script src="/city_search.js"></script>
+    <title>Blood Donation</title>
+    <link rel="icon" type="image/x-icon" href="/blood drop.png">
+</head>
+
+<body class="xyz">
+    <div class="navbar">
+        <div class="bdrop"> <img src="/blood drop.png" alt="blood_drop.png"> </div>
+        <div class="headings">
+            <!-- <button onclick="document.location='http://127.0.0.1:5500/hiu.htm'">hi</button> -->
+            <div class="h"><a href="/index.htm">HOME</a></div>
+            <div class="h"><a href="/login.htm">LOGIN / DONATE HERE</a></div>
+            <div class="h"><a href="/signup.htm">SIGN UP</a></div>
+            <div class="h"><a href="#try">WHY DONATE BLOOD</a></div>
+            <div class="h"><a href="#try2">CONTACT US</a></div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="slideshow"></div>
+
+
+
+
+
+    <div class="Donor_search">
+        <div class="s_heading"><b>FIND A DONOR</b></div>
+        <div class="search_content">
+            <div class="state"><u>STATE :</u></div>
+            <div class="state_search">
+                <select onchange="changestate(this.value)" name="CITY">
+                    <option value="SELECT A STATE">SELECT A STATE</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                    <option value="Jharkhand">Jharkhand</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Kerala">Kerala</option>
+                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Manipur">Manipur</option>
+                    <option value="Meghalaya">Meghalaya</option>
+                    <option value="Mizoram">Mizoram</option>
+                    <option value="Nagaland">Nagaland</option>
+                    <option value="Odisha">Odisha</option>
+                    <option value="Punjab">Punjab</option>
+                    <option value="Rajasthan">Rajasthan</option>
+                    <option value="Sikkim">Sikkim</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                    <option value="Telangana">Telangana</option>
+                    <option value="Tripura">Tripura</option>
+                    <option value="Uttarakhand">Uttarakhand</option>
+                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                    <option value="West Bengal">West Bengal</option>
+                </select>
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+
+
+
+            <div class="city"><u>CITY :</u></div>
+            <div class="city_search">
+                <select id="city" name="CITY">
+                    <option value="">SELECT A CITY</option>
+                </select>
+            </div>
+            <div class="hr">
+                <hr>
+            </div>
+
+
+
+            <div class="b_grp"><u>
+                    <pre>BLOOD: 
+GROUP </pre>
+                </u></div>
+            <div class="b_grp_search">
+                <select name="blood_groups">
+                    <option>SELECT BLOOD GROUP</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+            </div>
+            <div class="hr">
+            </div>
+        </div>
+        <div class="donor_search">
+            <form onsubmit="alert('Backend Unavailable')">
+            <button  type="submit"><b>SEARCH🔍</b></button></form>
+        </div>
+    </div>
+
+    <div class="d_highlight">
+        <div class="high_heading"><b>DONATION HIGHLIGHTS</b></div>
+        <div class="tryy">
+            <div class="img1"></div>
+            <div class="midcont">
+                <h1>Donate Plasma</h1>
+            </div>
+            <div class="cont">Plasma is needed to create unique life-saving medicines to help save and transform the
+                lives
+                of over 17,000 people each year. Amazingly, this medicine is in you. Give plasma and help save lives.
+            </div>
+        </div>
+        <a id="login" href="/login.htm">
+            <div class="tryxx">
+                <div class="img2"></div>
+                <div class="midcont">
+                    <h1>"Want to donate for first time"</h1>
+                </div>
+                <div class="cont">
+                    We always need new donors. Let us take you through the steps to becoming a donor and the process of
+                    getting that first appointment booked.</div>
+            </div>
+        </a>
+        <div class="tryxx2">
+            <div class="img3"></div>
+            <div class="midcont">
+                <h1>We need black donors</h1>
+            </div>
+            <div class="cont">Sickle cell is more common in people of Black heritage. Black donors are also are ten
+                times more likely to have an important blood type used to treat the condition. Find out how you can help
+                save the lives of people with sickle cell.
+            </div>
+        </div>
+        <div class="tryxx3">
+            <div class="img4"></div>
+            <div class="midcont">
+                <h1>Coronavirus update</h1>
+            </div>
+            <div class="cont"> National restrictions may have lifted, but we still have extra safety measures in place
+                at our centres. Read the latest advice before coming to donate.
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <section id="try">
+        <div class="why_donate">
+            <div class="d_head">WHY SHOULD YOU DONATE??</div>
+            <div class="d_content">
+                <marquee id="marq" direction="up" scrollamount="2" height="160px" width="80%">Safe blood saves lives.
+                    Blood is needed by women with complications during pregnancy and childbirth, children with severe
+                    anaemia, often resulting from malaria or malnutrition, accident victims and surgical and cancer
+                    patients.
+
+                    There is a constant need for a regular supply of blood because it can be stored only for a limited
+                    period of time before use. Regular blood donation by a sufficient number of healthy people is needed
+                    to ensure that blood will always be available whenever and wherever it is needed.
+
+                    Blood is the most precious gift that anyone can give to another person – the gift of life. A
+                    decision to donate your blood can save a life, or even several if your blood is separated into its
+                    components – red cells, platelets and plasma – which can be used individually for patients with
+                    specific conditions.</marquee>
+            </div>
+        </div>
+    </section>
+
+    <section id="try2">
+        <footer class="foot"><br>
+            <h3>About:</h3>
+            <div class="f_cont">A blood donation website primarily made to help people in need of blood by providing blood availability services and blood donation services as well.</div><br>
+            <hr id="f_line"><br>
+            <div class="contact">For assistance, contact:</div>
+            <pre class="ronit">
+
+Ronit Sharma
++91-7807795657
+
+Pranav S. Patil
++91-8806949846
+            </pre>
+        </footer>
+    </section>
+
+</body>
+
+</html>

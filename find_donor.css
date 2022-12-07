@@ -1,0 +1,116 @@
+.Donor_search{
+    /* background:linear-gradient(#fb2234,#c87878); */
+    background-image: url('/search_bg.jpg');
+    background-size: 100% 100%;
+    width:550px;
+    height: 470px;
+    text-align: center;
+    margin-top: -410px; /*-410*/ 
+    margin-left: 80px;
+    border: 5px solid black;
+    border-radius: 20px;
+    scroll-behavior: smooth;
+}
+
+.s_heading{
+    font-size: 40px;
+    font-family: Garamond;
+    background-color: white;
+    width: 350px;
+    margin-left: 90px;
+    margin-top:25px;
+    border-radius: 20px;
+    border: 2px solid black;
+    color: #fb2234;
+}
+
+
+.state{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 80px;
+    color:aliceblue;
+}
+
+.state_search{
+    margin-top: -28px;
+    margin-left: 90px;
+}
+
+.hr {
+   
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 500px;
+    color: red;
+}
+
+.state_search select{
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    padding:5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+   }
+
+.city{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 80px;
+    color:aliceblue;
+}
+
+.city_search{
+    margin-top: -28px;
+    margin-left: 90px;
+}
+
+
+.city_search select{
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    padding:5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+.b_grp{
+    margin-top: 30px;
+    text-align: left;
+    font-size: 25px;
+    margin-left: 80px;
+    color:aliceblue;
+}
+
+.b_grp_search{
+    margin-top: -28px;
+    margin-left: 90px;
+}
+
+.b_grp_search select{
+    color: black;
+    border: 3px solid rgb(0, 0, 0);
+    padding:5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 20px;
+}
+
+.donor_search button{
+   color: red;
+   padding-left:60px;
+   padding-right: 60px;
+   border: 3px solid black;
+   border-radius: 800px;
+   cursor:pointer;
+   padding-top:6px;
+   padding-bottom: 6px;
+   margin-top: 30px;
+   background: radial-gradient(white,red);
+   color: black;
+
+}

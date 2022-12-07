@@ -1,0 +1,17 @@
+* {
+    margin: 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.xyz {
+    background: linear-gradient(red, white);
+    /* background-color: rgb(88, 106, 32); */
+}
+
+html,body{
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
